@@ -1,13 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import {Function1} from './App';
 import reportWebVitals from './reportWebVitals';
+// import { Parent } from './Parent';
+// import { First } from './contectApi';
+// import { Parent } from './router';
+import {Fun_1 } from './callback';
+// import { Counter } from './reducer';
+// import { Settime_out } from './setTimeout';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Function1 /> */}
+
+    {/* <Settime_out /> */}
+
+    {/* <Counter/> */}
+
+{/* <First/> */}
+ 
+ {/* <Parent/> */}
+
+{/* <Parent/> */}
+
+<Fun_1/>
+
+   {/* <Call/> */}
   </React.StrictMode>
 );
 
